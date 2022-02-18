@@ -1,7 +1,7 @@
-const reverseString = function () {
-  let string = "hello";
+const reverseString = function (string) {
+  let newString = string;
   let word = "";
-  for (var i = string.length - 1; i >= 0; i--) {
+  for (var i = newString.length - 1; i >= 0; i--) {
     word += string[i];
   }
   return word;
