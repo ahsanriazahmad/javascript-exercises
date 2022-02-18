@@ -1,11 +1,11 @@
 const reverseString = function () {
   let string = "hello";
   let word = "";
-  for (let i = 0; string.length; i++) {
-    string.charAt(0);
+  for (var i = string.length - 1; i >= 0; i--) {
+    word += string[i];
   }
-  return word.concat(string);
+  return word;
 };
 
-// Do not edit below this line
+// Do not edit below this linen
 module.exports = reverseString;
